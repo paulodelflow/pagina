@@ -1,22 +1,13 @@
-from django.shortcuts import render, redirect
-from django import forms
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Product
 
-class ProductForm(forms.ModelForm):
-    class Meta:
-        model = Product
-        fields = ['id','name', 'description', 'price', 'stock', 'image']
-
 def index(request):
-    if request.method == 'POST':
-        form = ProductForm(request.POST, request.FILES)
-        if form.is_valid():
-            form.save()
-            return redirect('product_list')
-    else:
-        form = ProductForm()
-    return render(request, 'pages/index.html', {'form': form})
-
-def product_list(request):
     products = Product.objects.all()
-    return render(request, 'pages/product_list.html', {'products': products})
+    return render(request, 'pages/index.html', {'products': products})
+
+def delete_product(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    if request.method == 'POST':
+        product.delete()
+        return redirect('index')
+    return render(request, 'pages/delete_product.html', {'product': product})
