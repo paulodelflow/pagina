@@ -14,6 +14,8 @@ Este es un proyecto de Django que muestra una lista de productos con la funciona
 - Python 3.x
 - Django 5.0.6
 - Pillow (para manejo de imágenes)
+- Ruby (para Compass)
+- Node.js (para Angular)
 
 ## Instalación
 
@@ -111,4 +113,5 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 ## Contacto
 
 Para cualquier pregunta o comentario, por favor contacta a [tu_email@example.com](mailto:tu_email@example.com).
+
 
