@@ -1,0 +1,126 @@
+.dashboard-products {
+    font-family: "Good Sans Light", Sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1F1F1E;
+    position:relative;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  #dashboard-product-table-title {
+    float:left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    display:inline;
+  }
+  
+  #dashboard-product-table-sort {
+    display: inline-block;
+  }
+  
+  #product-sort-form {
+    float:right;
+  }
+  
+  #sort-dropdown-span {
+    display:inline-block;
+  }
+  
+  #sort-dropdown {
+    margin-top: -3px; 
+    border: 0px !important;  
+    text-indent: 0.01px; 
+    text-overflow: none;  
+    padding: 0px 30px 0px 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: blue;
+    background: #fff url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTFweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMSA3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPHRpdGxlPkljb24gLyBDaGV2cm9uIERvd248L3RpdGxlPgogICAgPGcgaWQ9IkFwcmljb3QtTWVtYmVyLS0tRGFzaGJvYXJkIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iMTQ0MF9EYXNoYm9hcmRfRW1wdHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03OTIuMDAwMDAwLCAtNTAyLjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc4NS4wMDAwMDAsIDQ5My4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSIyNHB0LUJvdW5kaW5nLUJveCIgb3BhY2l0eT0iMCIgZmlsbC1ydWxlPSJub256ZXJvIiBwb2ludHM9IjAgMCAyNCAwIDI0IDI0IDAgMjQiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMiwxNS41MDAwMTY3IEwxMiwxNS41MDAwMTY3IEMxMS43MzQxOTcsMTUuNTAxNTM2OCAxMS40Nzg3MTksMTUuMzk3MTg3IDExLjI5LDE1LjIxIEw3LjI4OTk5OTk4LDExLjIxIEw3LjI4OTk5OTk4LDExLjIxIEM2Ljg5Nzg3Nzk4LDEwLjgxNzg3OCA2Ljg5Nzg3Nzk4LDEwLjE4MjEyIDcuMjg5OTk5OTksOS43OSBDNy42ODIxMjE5OSw5LjM5Nzg3OCA4LjMxNzg3OTk5LDkuMzk3ODc4IDguNzA5OTk5OTksOS43OSBMMTIsMTMuMSBMMTUuMyw5LjkyIEwxNS4yOTk5OTk5LDkuOTIwMDAwMDYgQzE1LjY2OTMwNTksOS41MDkzNTIwNiAxNi4zMDE1Nzk5LDkuNDc1ODM3MDYgMTYuNzEyMjI5OSw5Ljg0NTE0Mjc2IEMxNy4xMjI4Nzc5LDEwLjIxNDQ0ODggMTcuMTU2MzkyOSwxMC44NDY3MjI4IDE2Ljc4NzA4NzIsMTEuMjU3MzcyOCBDMTYuNzUzOTgwOSwxMS4yOTQxODUzIDE2LjcxODE4NjQsMTEuMzI4NDg4MyAxNi42Nzk5OTkyLDExLjM1OTk5ODggTDEyLjY3OTk5OTIsMTUuMjE5OTk4OCBMMTIuNjc5OTk5MiwxNS4yMTk5OTg4IEMxMi40OTcxMjQyLDE1LjM5NjMxMzggMTIuMjU0MDAyMiwxNS40OTY0MjI4IDExLjk5OTk5OTIsMTUuNTAwMDE2NyBMMTIsMTUuNTAwMDE2NyBaIiBpZD0iRmlsbCIgZmlsbD0iIzFGMUYxRSI+PC9wYXRoPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=) no-repeat 90% center;
+  }
+  
+  .sort-selection #sort-dropdown {
+    text-decoration: underline;
+  }
+  
+  .dashboard-product-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 734px;
+    overflow: hidden;
+  }
+  
+  
+  .dashboard-product-table thead th {
+    color: #bbbab9;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 0.86rem;
+    text-transform: uppercase;  
+    padding-bottom: 10px;
+  }
+  
+  /* .dashboard-product-table thead th:first-of-type {
+    column-width: 90px;
+  } */
+  .table-id-col {
+    text-align: center;
+    width: 50px;
+}
+
+  
+  .dashboard-product-table thead th .table-earned-col {
+    text-align: right !important;
+  }
+  
+  .dashboard-product-table td {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 10px 5px 5px;
+  }
+  
+  .dashboard-product-table tr  {
+    background-color: #ffffff;
+  }
+  
+  
+  .dashboard-product-table tbody tr.active-row {
+    background-color: #fbf9f8;
+  }
+  
+  .dashboard-product-table .table-image-col {
+    text-align: center;
+  }
+  
+  .dashboard-product-table tbody td img {
+    height: 80px;
+    width: auto;
+  }
+
+  
+  .table-name-col {
+    text-align:left;
+  }
+  
+  .table-brand-col {
+    text-align:left;
+  }
+  
+  .table-qty-col {
+    text-align:right;
+  }
+  
+  .table-customers-col {
+    text-align:right;  
+  }
+  
+  .table-earned-col {
+    text-align: right;
+  }
+  
+  .table-image-col {
+    width: 90px;
+  }
