@@ -112,6 +112,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## Contacto
 
-Para cualquier pregunta o comentario, por favor contacta a [tu_email@example.com](mailto:tu_email@example.com).
-
-
+Para cualquier pregunta o comentario, por favor contacta a [tu_email@example.com](mailto:pa.escobarrm@duocuc.cl).
